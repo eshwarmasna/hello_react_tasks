@@ -1,0 +1,41 @@
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculator-input {
+  width: 300px; /* Customize width */
+  height: 50px; /* Customize height */
+  margin-bottom: 10px; /* Spacing between input and table */
+  font-size: 1.5em; /* Adjust font size */
+}
+
+.table_Container {
+  width: 30%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+th {
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.num:hover {
+  background-color: rgb(84, 97, 97);
+}
+
+.equal:hover {
+  background-color: rgb(143, 117, 51);
+}
+
+.mul:hover {
+  background-color: coral;
+}
+
+.can:hover {
+  background-color: rgb(130, 164, 71);
+}
