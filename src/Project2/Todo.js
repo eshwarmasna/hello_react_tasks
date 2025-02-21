@@ -12,7 +12,7 @@ function Todo() {
                     id: Date.now(), // Generate a unique ID
                 })
             );
-            setInput(""); // Clear the input after adding a todo
+            setInput("");
         }
     };
 
@@ -24,12 +24,12 @@ function Todo() {
         <div>
             <input
                 type="text"
-                style={{ width: "150px", height: "50px" }}
+                style={{ width: "150px", height: "40px" }}
                 placeholder="New Todo"
                 value={input}
                 onChange={(e) => setInput(e.target.value)}
             />
-            <button onClick={ClickHandler}>Add</button>
+            <button onClick={ClickHandler} style={{ width: "100px", height: "40px" }}>Add</button><br></br>
             <ul>
                 {todos.map(({ text, id }) => (
                     <li key={id}>

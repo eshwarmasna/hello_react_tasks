@@ -12,6 +12,7 @@ function Calculator() {
         setCount(count + value);
     };
     const calculate = () => {
+        // eslint-disable-next-line no-eval
         var answers = eval(count)
         setCount(answers)
     }
