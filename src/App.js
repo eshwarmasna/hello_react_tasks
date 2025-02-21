@@ -1,5 +1,6 @@
 import React from 'react'
-import Cliker from './Practice/Cliker'
+import DisplayingCarts from './Practice/DisplayingCarts'
+// import Cliker from './Practice/Cliker'
 // import SearchFilter from './Practice/SearchFilter'
 // import RandomQuote from './Practice/RandomQuote'
 // import Calculator from './Practice/Calculator'
@@ -19,7 +20,8 @@ function App() {
       {/* <Calculator /> */}
       {/* <RandomQuote/> */}
       {/* <SearchFilter /> */}
-      <Cliker />
+      {/* <Cliker /> */}
+      <DisplayingCarts />
     </div>
   )
 }
