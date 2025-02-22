@@ -1,0 +1,18 @@
+.MainF {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid;
+}
+
+.MainF div:first-child {
+  display: flex;
+  gap: 15px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}

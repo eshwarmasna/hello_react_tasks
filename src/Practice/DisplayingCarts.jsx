@@ -10,7 +10,7 @@ function DisplayingCarts() {
       .then((response) => response.json())
       .then((res) => {
         setData(res);
-        setSum(res); // Initialize sum with all the data
+        setSum(res);
       });
   }, []);
 

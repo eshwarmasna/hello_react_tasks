@@ -1,5 +1,8 @@
 import React from 'react'
-import DisplayingCarts from './Practice/DisplayingCarts'
+import Navbar from './StoreApp/Navbar/Navbar'
+import Home from './StoreApp/Home/Home'
+// import DisplayingTwo from './Practice/DisplayingTwo'
+// import DisplayingCarts from './Practice/DisplayingCarts'
 // import Cliker from './Practice/Cliker'
 // import SearchFilter from './Practice/SearchFilter'
 // import RandomQuote from './Practice/RandomQuote'
@@ -21,7 +24,10 @@ function App() {
       {/* <RandomQuote/> */}
       {/* <SearchFilter /> */}
       {/* <Cliker /> */}
-      <DisplayingCarts />
+      {/* <DisplayingCarts /> */}
+      {/* <DisplayingTwo/> */}
+      {/* <Navbar /> */}
+      <Home />
     </div>
   )
 }
